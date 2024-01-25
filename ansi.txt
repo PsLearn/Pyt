@@ -1,0 +1,20 @@
+ tar -zxvf Python-<VERSION>.tgz
+$ cd Python-<VERSION>
+$ ./configure
+$ make
+$ sudo make install
+$ sudo python get-pip.py
+Install Ansible:
+
+Install Ansible using the downloaded package.
+bash
+Copy code
+$ tar -zxvf ansible-<VERSION>.tar.gz
+$ cd ansible-<VERSION>
+$ sudo pip install .
+Verify Installation:
+
+Check if Ansible is installed correctly.
+bash
+Copy code
+$ ansible --version
